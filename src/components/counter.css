@@ -1,0 +1,63 @@
+.main__div {
+  padding: 3rem;
+}
+
+.counter__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  margin: 0 auto;
+  height: 4rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.counter__buttons {
+  width: 100%;
+  height: 100%;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border: 1.1px solid #b34040;
+}
+
+.minus {
+  background-color: #fff;
+  border-radius: 0.6rem 0 0 0.6rem;
+  color: #b34040;
+}
+
+.plus {
+  background-color: #b34040;
+  border-radius: 0 0.6rem 0.6rem 0;
+  color: #fff;
+}
+
+.counter__value {
+  background-color: #fbe9e9;
+  width: 100%;
+  height: 100%;
+  border-top: 1.1px solid #b34040;
+  border-bottom: 1.1px solid #b34040;
+  font-size: 1.4rem;
+  color: #b34040;
+}
+
+.counter-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.counter-input input {
+  padding: 0.6rem;
+  margin-left: 0.3rem;
+  font-size: 1rem;
+}
+
+:is(.minus, .plus, .counter__value) div {
+  position: relative;
+  top: 1rem;
+}
